@@ -8,11 +8,11 @@ let cars = [
 ];
 
 let tires = [
-    {id:"0", tires:["OK","OK","OK","OK"]},
-    {id:"1", tires:["OK","BAD","BAD","OK"]},
-    {id:"2", tires:["BAD","BAD","BAD","OK"]},
-    {id:"3", tires:["NEW","NEW","OK","OK"]},
-    {id:"4", tires:["NEW","NEW","BAD","MISSING"]},
+    {id:"0", tireStatus:["OK","OK","OK","OK"]},
+    {id:"1", tireStatus:["OK","BAD","BAD","OK"]},
+    {id:"2", tireStatus:["BAD","BAD","BAD","OK"]},
+    {id:"3", tireStatus:["NEW","NEW","OK","OK"]},
+    {id:"4", tireStatus:["NEW","NEW","BAD","MISSING"]},
 ];
 
 

@@ -11,8 +11,14 @@ const resolvers = {
         cars() {
             return db.cars;
         },
+        car(_, args) {
+            return db.cars.find((car) => car.id === args.id)
+        },
         tires() {
            return db.tires;
+        },
+        carTires(_, args) {
+            return db.tires.find((tires) => tires.id === args.id)
         }
     }
 }

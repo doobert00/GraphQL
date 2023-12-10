@@ -1,5 +1,5 @@
 export const typeDefs = `#graphql
-    type Cars {
+    type Car {
         id: ID!
         make: String!
         model: String!
@@ -11,7 +11,9 @@ export const typeDefs = `#graphql
     }
 
     type Query {
-        cars: [Cars]
+        cars: [Car]
+        car(id: ID!): Car
         tires: [Tires]
+        carTires(id: ID!): Tires
     }
 `;
