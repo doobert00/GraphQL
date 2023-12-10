@@ -1,11 +1,11 @@
 export const typeDefs = `#graphql
     type Car {
-       id: ID!
-       make: String!
-       model: String!
-       tires: ID
+        id: ID!
+        make: String!
+        model: String!
+        tires: ID
     }  
-    type Tires{
+    type Tires {
         id: ID!
         condition: [String!]!
     }
